@@ -46,17 +46,13 @@ $ npm run start:prod
 ```
 
 ## Test
+Post http://localhost:3000/findByName
+Body: 
+{
+  "name": "(pokemon's name)"
+}
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
+GET http://localhost:3000/csv/(Number of type)
 
 ## Support
 
